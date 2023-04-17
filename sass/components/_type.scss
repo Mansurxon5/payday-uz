@@ -1,0 +1,16 @@
+@mixin  flexbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin flex {
+    display: flex;
+    align-items: center;
+}
+
+@mixin  box {
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+}
